@@ -1,0 +1,73 @@
+.btn1 {
+  height: 50%;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  background: rgba(1, 28, 55, 0);
+  color: #15DEA5;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+
+.btn1:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  background-color: #011c37;
+}
+
+.form__group input {
+  margin-top: 50px;
+  border: 2px solid grey;
+  border-radius: 100rem;
+  color: #15DEA5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  outline: none;
+  padding: .5rem 1.5rem;
+  width: 30%;
+  -webkit-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+
+.form__group input:focus {
+  border: 2px solid #15DEA5;
+}
+
+.form__group input:not(:focus):invalid {
+  background-color: red;
+  border: 3px solid red;
+  color: black;
+}
+
+.btn {
+  width: 10%;
+  height: 10%;
+  background: grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+}
+
+.btn:active + .ball {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.ball {
+  width: 300px;
+  height: 300px;
+  background: #15DEA5;
+  margin-bottom: 1rem;
+  border-radius: 150px;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transition: -webkit-transform 4s;
+  transition: -webkit-transform 4s;
+  transition: transform 4s;
+  transition: transform 4s, -webkit-transform 4s;
+}
+/*# sourceMappingURL=style.css.map */
